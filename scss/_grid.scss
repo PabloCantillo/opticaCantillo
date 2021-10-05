@@ -1,0 +1,26 @@
+//Section grid
+/* ================================================*/
+/*Inicio de grid*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+#header{
+    grid-area: header ;
+    justify-self: stretch;
+    align-self: stretch ;
+}
+
+#main{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: footer;
+}
+/* Fin de Grid */

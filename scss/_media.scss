@@ -1,0 +1,121 @@
+//Section media querie de las paginas
+
+
+/* Media querie */
+
+@media only screen and (max-width: 1024px){
+    .imagen-lentes{
+        height: 200px;
+    }
+    
+    .imagen-anteojos{
+        height: 200px;
+    }
+
+    #main-video{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 300px;
+    }
+}
+
+/* =================== */
+
+@media only screen and (max-width: 768px){
+    .imagen-lentes{
+        height: 150px;
+    }
+    .imagen-anteojos{
+        height: 150px;
+    }
+    #main-video{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 200px;
+    }
+}
+/* ==================== */
+
+@media only screen and (max-width: 640px){
+
+    .imagen-lentes{
+        height: 100px;
+    }
+    
+    .imagen-anteojos{
+        height: 100px;
+    }
+
+    #main-video{
+        display: flex;
+        justify-content: center;;
+        width: 25%;
+    }
+    
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .imagen-lentes{
+    height: 100px;
+}
+
+.imagen-anteojos{
+    height: 100px;
+}
+
+#main-video{
+    display: flex;
+    justify-content: center;;
+    width: 25%;
+}
+
+#titulo-secundario{
+    text-align: center;
+}
+
+#titulo-primero{
+    text-align: center;
+}
+
+.receta, .sol, .lente-contacto{
+    width: 125px;
+}
+
+}
+/* Fin media querie */
+/* ================================================*/

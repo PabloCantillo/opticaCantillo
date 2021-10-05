@@ -1,0 +1,47 @@
+//Aqui realizo la sección de Header
+/* ================================================*/
+/*Inicio de la section Header*/
+/* Inicio de la navbar*/
+.navbar{
+    background-color: #FEA82F;
+}
+.color-navbar{
+    color: rgb(92, 0, 0);
+}
+.logo{
+    margin-left: 20px;
+}
+/* Fin de la navbar */
+
+/* ========================= */
+
+/*Inicio del header*/
+#body-background{
+    background-color: #F9E0AE;
+    font-family: 'Recursive', sans-serif;
+}
+.titulo-header{
+    color: rgb(92, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul li {
+    text-decoration: none;
+    padding: 0 2px;
+    margin-right: 2px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    background: linear-gradient(180deg, rgba(95,0,0,1) 5%, #FEA82F 10%, rgba(95,0,0,1) 15%, #FEA82F 20%, rgba(95,0,0,1) 25%, rgba(95,0,0,1) 75%, #FEA82F 80%, rgba(95,0,0,1) 85%, #FEA82F 90%, rgba(95,0,0,1) 95%);
+}
+nav ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fin de la section Header */
+/* ================================================*/

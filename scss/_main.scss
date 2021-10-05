@@ -1,0 +1,163 @@
+//Inicio section main de las paginas
+
+
+/*Inicio Main index*/
+h2{
+    color: rgb(92, 0, 0);
+}
+
+/* Carousel */
+#carouselExampleFade{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-caro{
+    height: 400px;
+}
+
+/* Inicio de Section video*/
+#video-main{
+    display: flex;
+    justify-content: center;
+    
+}
+/* Fin section video */
+
+/* Inicio section Card */
+#card{
+    margin-top: 30px;
+}
+.imagen-anteojos, .imagen-lentes{
+    height: 300px;
+    }
+
+.card-title{
+    color: rgb(92, 0, 0);
+    margin-top: 10px;
+}
+/*Fin Main index*/
+
+/* ========================= */
+
+/*Inicio Main Productos*/
+#main-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-productos, .subtitulo-producto{
+    color: rgb(92, 0, 0);
+    margin:20px 10px 20px;
+}
+
+.color-tipos, .tipos-anteojos, .tipos-lentes{
+    color: black;
+    margin-top: 2px;
+}
+
+#tabla-productos{
+    display: flex;
+    justify-content: center;
+    border: black 2px;
+}
+/*Fin Main Productos*/
+
+/* ========================= */
+
+/*Inicio Main Historia*/
+#main-optica, #main-oftalmologia{
+    width: 95%;
+}
+
+.titulo-producto{
+    margin-left: 12px;
+}
+
+.color-historia{
+    color: rgb(92, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.historia-color{
+    color: solid rgb(92, 0, 0);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/*Fin Main Historia*/
+
+/* ========================= */
+
+/*Inicio Main Sucursales*/
+#sucursales-main{
+    width: 80%;
+    margin:10px;
+}
+
+.subtitulo-historia{
+    color: rgb(92, 0, 0);
+    margin: 5px;
+}
+
+.historia-color{
+    color: rgb(92, 0, 0);
+    margin: 10px;
+}
+
+#mapa-tabla div{
+    display: inline-block;
+    margin:15px;
+}
+/*Fin Main Sucursales*/
+
+/* ========================= */
+
+/*Inicio Main Contacto*/
+#formulario{
+    margin-left: 3px;
+}
+/*Fin Main Contacto*/
+
+/* ========================= */
+
+/*Inicio Main Tienda*/
+#titulo-tienda{
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+#fila-1, #fila-2, #fila-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#fila-1 div, #fila-2 div, #fila-3 div{
+    margin:6px;
+    padding: 6px;
+}
+
+#fila-1 div:hover, #fila-2 div:hover, #fila-3 div:hover{
+    margin: 6px;
+    padding: 6px;
+    transform: scale(1.1);
+}
+#fila-1 div a, #fila-2 div a, #fila-3 div a{
+    display: flex;
+    justify-content: center;
+    border: solid 4px black ;
+    border-radius: 5px;
+    background-color: #fce300;
+    color:rgb(92, 0, 0);
+    text-decoration: none;
+}
+.receta, .sol, .lente-contacto{
+    width: 395px;
+}
+/*Fin Main Tienda*/

@@ -1,0 +1,396 @@
+/* Inicio index.html */
+/* NavBar*/
+.navbar{
+    background-color: #FEA82F;
+}
+.color-navbar{
+    color: rgb(92, 0, 0);
+}
+.logo{
+    margin-left: 20px;
+}
+/* Fin NavBar */
+
+/* Inicio Grid */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+#header{
+    grid-area: header ;
+    justify-self: stretch;
+    align-self: stretch ;
+}
+
+#main{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: footer;
+}
+/* Fin Grid */
+
+/* Inicio header */
+#body-background{
+    background-color: #F9E0AE;
+    font-family: 'Recursive', sans-serif;
+}
+.titulo-header{
+    color: rgb(92, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul li {
+    text-decoration: none;
+    padding: 0 2px;
+    margin-right: 2px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    background: linear-gradient(180deg, rgba(95,0,0,1) 5%, #FEA82F 10%, rgba(95,0,0,1) 15%, #FEA82F 20%, rgba(95,0,0,1) 25%, rgba(95,0,0,1) 75%, #FEA82F 80%, rgba(95,0,0,1) 85%, #FEA82F 90%, rgba(95,0,0,1) 95%);
+}
+nav ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <==============> */
+
+/* Inicio Main */
+h2{
+    color: rgb(92, 0, 0);
+}
+
+/* Carousel */
+#carouselExampleFade{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-caro{
+    height: 400px;
+}
+
+/* Inicio de Section video*/
+#video-main{
+    display: flex;
+    justify-content: center;
+    
+}
+/* Fin section video */
+
+/* Inicio section Card */
+#card{
+    margin-top: 30px;
+}
+.imagen-anteojos, .imagen-lentes{
+    height: 300px;
+    }
+
+.card-title{
+    color: rgb(92, 0, 0);
+    margin-top: 10px;
+}
+
+
+/* <==============> */
+
+/* Inicio Footer */
+.redes-color{
+    color: rgb(65, 17, 27);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo{
+    height: 40px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+footer{
+    text-align: center;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer ul li a:hover{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li:hover{
+    transform: scale(1.15);
+}
+
+footer h5{
+    color:rgb(92, 0, 0);
+    margin-bottom: 10px;
+}
+/* Fin footer */
+/* Fin index.html */
+
+/* ============================================= */
+
+/* Inicio productos.html */
+#main-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-productos, .subtitulo-producto{
+    color: rgb(92, 0, 0);
+    margin:20px 10px 20px;
+}
+
+.color-tipos, .tipos-anteojos, .tipos-lentes{
+    color: black;
+    margin-top: 2px;
+}
+
+#tabla-productos{
+    display: flex;
+    justify-content: center;
+    border: black 2px;
+}
+/* Fin productos.html */
+
+/* ============================================= */
+
+/* Inicio historia.html*/
+#main-optica, #main-oftalmologia{
+    width: 95%;
+}
+
+.titulo-producto{
+    margin-left: 12px;
+}
+
+.color-historia{
+    color: rgb(92, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.historia-color{
+    color: solid rgb(92, 0, 0);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* Fin historia.html */
+
+/* ============================================= */
+
+/* Inicio sucursales.html*/
+#sucursales-main{
+    width: 80%;
+    margin:10px;
+}
+
+.subtitulo-historia{
+    color: rgb(92, 0, 0);
+    margin: 5px;
+}
+
+.historia-color{
+    color: rgb(92, 0, 0);
+    margin: 10px;
+}
+
+#mapa-tabla div{
+    display: inline-block;
+    margin:15px;
+}
+
+/* Fin sucursales.html*/
+
+/* ============================================= */
+
+/* contacto.html */
+#formulario{
+    margin-left: 3px;
+}
+
+
+/* Inicio tienda.html */
+#titulo-tienda{
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+#fila-1, #fila-2, #fila-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#fila-1 div, #fila-2 div, #fila-3 div{
+    margin:6px;
+    padding: 6px;
+}
+
+#fila-1 div:hover, #fila-2 div:hover, #fila-3 div:hover{
+    margin: 6px;
+    padding: 6px;
+    transform: scale(1.1);
+}
+#fila-1 div a, #fila-2 div a, #fila-3 div a{
+    display: flex;
+    justify-content: center;
+    border: solid 4px black ;
+    border-radius: 5px;
+    background-color: #fce300;
+    color:rgb(92, 0, 0);
+    text-decoration: none;
+}
+.receta, .sol, .lente-contacto{
+    width: 395px;
+}
+
+
+
+/* Fin tienda.html */
+
+/* ========================= */
+
+/* Media querie */
+
+@media only screen and (max-width: 1024px){
+    .imagen-lentes{
+        height: 200px;
+    }
+    
+    .imagen-anteojos{
+        height: 200px;
+    }
+
+    #main-video{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 300px;
+    }
+}
+
+/* =================== */
+
+@media only screen and (max-width: 768px){
+    .imagen-lentes{
+        height: 150px;
+    }
+    .imagen-anteojos{
+        height: 150px;
+    }
+    #main-video{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 200px;
+    }
+}
+/* ==================== */
+
+@media only screen and (max-width: 640px){
+
+    .imagen-lentes{
+        height: 100px;
+    }
+    
+    .imagen-anteojos{
+        height: 100px;
+    }
+
+    #main-video{
+        display: flex;
+        justify-content: center;;
+        width: 25%;
+    }
+    
+    #titulo-secundario{
+        text-align: center;
+    }
+
+    #titulo-primero{
+        text-align: center;
+    }
+
+    .receta, .sol, .lente-contacto{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .imagen-lentes{
+    height: 100px;
+}
+
+.imagen-anteojos{
+    height: 100px;
+}
+
+#main-video{
+    display: flex;
+    justify-content: center;;
+    width: 25%;
+}
+
+#titulo-secundario{
+    text-align: center;
+}
+
+#titulo-primero{
+    text-align: center;
+}
+
+.receta, .sol, .lente-contacto{
+    width: 125px;
+}
+
+}
+/* Fin media querie */

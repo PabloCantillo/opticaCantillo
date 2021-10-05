@@ -1,0 +1,47 @@
+//Section Footer de las paginas
+/* ================================================*/
+
+/* Inicio Footer */
+.redes-color{
+    color: rgb(65, 17, 27);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo{
+    height: 40px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+footer{
+    text-align: center;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer ul li a:hover{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li:hover{
+    transform: scale(1.15);
+}
+
+footer h5{
+    color:rgb(92, 0, 0);
+    margin-bottom: 10px;
+}
+/* Fin footer */
+
+/* ================================================*/
