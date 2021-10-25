@@ -1,0 +1,13 @@
+@mixin titulo-header {
+    color: rgb(92, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+@for $i from 2 through 6 {
+    h#{$i} {
+        @include titulo-header
+    }
+}

@@ -40,7 +40,8 @@
 .titulo-header {
   color: #5c0000;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 20px;
+  margin-bottom: 25px; }
 
 nav ul li {
   text-decoration: none;
@@ -67,7 +68,9 @@ h2 {
 #carouselExampleFade {
   align-items: center;
   justify-content: center;
-  display: flex; }
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 10px; }
 
 .img-caro {
   height: 400px; }
@@ -75,12 +78,13 @@ h2 {
 /* Inicio de Section video*/
 #video-main {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 10px; }
 
 /* Fin section video */
 /* Inicio section Card */
 #card {
-  margin-top: 30px; }
+  margin: 30px 1px 0px; }
 
 .imagen-anteojos, .imagen-lentes {
   height: 300px; }
@@ -92,30 +96,26 @@ h2 {
 /*Fin Main index*/
 /* ========================= */
 /*Inicio Main Productos*/
-#main-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; }
-
 .titulo-productos, .subtitulo-producto {
   color: #5c0000;
-  margin: 20px 10px 20px; }
+  margin: 30px 10px 30px; }
 
 .color-tipos, .tipos-anteojos, .tipos-lentes {
   color: black;
   margin-top: 2px; }
 
 #tabla-productos {
-  display: flex;
-  justify-content: center;
-  border: black 2px; }
+  margin: 30px 10px 0px; }
 
 /*Fin Main Productos*/
 /* ========================= */
 /*Inicio Main Historia*/
 #main-optica, #main-oftalmologia {
-  width: 95%; }
+  width: 95%;
+  margin-bottom: 30px; }
+
+#main-optica {
+  margin-top: 20px; }
 
 .titulo-producto {
   margin-left: 12px; }
@@ -127,7 +127,7 @@ h2 {
   margin-left: 10px; }
 
 .historia-color {
-  color: solid #5c0000;
+  color: black;
   margin-bottom: 15px;
   margin-top: 15px;
   margin-left: 15px; }
@@ -141,21 +141,27 @@ h2 {
 
 .subtitulo-historia {
   color: #5c0000;
-  margin: 5px; }
+  margin: 5px;
+  text-align: center; }
 
 .historia-color {
-  color: #5c0000;
+  color: black;
   margin: 10px; }
 
 #mapa-tabla div {
   display: inline-block;
-  margin: 15px; }
+  margin-top: 20px;
+  align-items: center; }
 
 /*Fin Main Sucursales*/
 /* ========================= */
 /*Inicio Main Contacto*/
+#subtituloContacto {
+  margin: 10px 3px 15px; }
+
 #formulario {
-  margin-left: 3px; }
+  margin-left: 3px;
+  margin-right: 2px; }
 
 /*Fin Main Contacto*/
 /* ========================= */
@@ -213,7 +219,8 @@ footer ul li {
   padding: 0 5px; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
 
 footer ul li {
   margin: 5px; }
@@ -227,7 +234,10 @@ footer ul li:hover {
 
 footer h5 {
   color: #5c0000;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 17px; }
 
 /* Fin footer */
 /* ================================================*/
@@ -246,7 +256,11 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 300px; } }
+    width: 250px; }
+  #mapa-tabla {
+    align-self: center !important;
+    justify-content: center !important;
+    width: auto; } }
 
 /* =================== */
 @media only screen and (max-width: 768px) {
@@ -296,7 +310,41 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 125px; } }
+    width: 100px; } }
 
 /* Fin media querie */
 /* ================================================*/
+h2 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px; }
+
+h3 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px; }
+
+h4 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px; }
+
+h5 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px; }
+
+h6 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px; }

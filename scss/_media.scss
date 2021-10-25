@@ -27,7 +27,13 @@
     }
 
     .receta, .sol, .lente-contacto{
-        width: 300px;
+        width: 250px;
+    }
+
+    #mapa-tabla{
+        align-self: center !important;
+        justify-content: center !important;
+        width: auto;
     }
 }
 
@@ -113,8 +119,9 @@
 }
 
 .receta, .sol, .lente-contacto{
-    width: 125px;
+    width: 100px;
 }
+
 
 }
 /* Fin media querie */

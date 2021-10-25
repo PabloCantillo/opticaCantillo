@@ -8,14 +8,17 @@
     <meta name="keywords"  content="ÓPTICA, ANTEOJOS, LENTES DE CONTACTO, HISTORIA, SUCURSALES, SOL, RECETADOS, TIENDA, MIOPÍA, ASTIGMATISMO, MARCAS, OFTALMOLOGÍA, HIPERMETROPÍA, PRESBICIA, MULTIFOCALES, ESPEJADOS, BIFOCALES, GAS PERMEABLE, RÍGIDAS, MONOVISIÓN, TÓRICOS, POLARIZADOS, FOTOCROMÁTICOS">
     <title>Nuestra tienda</title>
 
+    <!-- Link css -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Link css sass -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../public/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon/favicon-16x16.png">
     <link rel="manifest" href="tienda.html">
-
-    <!-- Link css -->
-    <link rel="stylesheet" href="../css/main.css">
 
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +34,7 @@
     <header id="header">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../public/img/logo.png" alt="" width="60" height="60" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,13 +69,48 @@
                 </div>
             </div>
         </nav>
-        <p></p>
-        <p></p>
+
         <h1 class="titulo-header" >Óptica Cantillo</h1>
-        <hr>
     </header>
 
     <main>
+        <!-- Carrousel -->
+      <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item">
+                  <img src="../public/img/armani.jpg" class="d-block w-100" alt="armani">
+              </div>
+              <div class="carousel-item">
+                  <img src="../public/img/dolcegabana.jpg" class="d-block w-100" alt="dolce & gabana">
+              </div>
+              <div class="carousel-item">
+                  <img src="../public/img/elizabeth.jpg" class="d-block w-100" alt="elizabeth">
+              </div>
+              <div class="carousel-item">
+                  <img src="../public/img/paula.jpg" class="d-block w-100" alt="paula">
+              </div>
+              <div class="carousel-item">
+                  <img src="../public/img/prada.jpg" class="d-block w-100" alt="prada">
+              </div>
+              <div class="carousel-item active">
+                  <img src="../public/img/tiffany.jpg" class="d-block w-100" alt="tiffany">
+              </div>
+              <div class="carousel-item">
+                  <img src="../public/img/versace.jpg" class="d-block w-100" alt="versace">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
         <h2 id="titulo-tienda"><u>Tienda</u></h2>
         <section id="fila-1">
             <div>
@@ -117,27 +155,25 @@
             </div>
         </section>
     </main>
-    <hr>
+
     <footer id="footer">
-        <hr>
         <ul>
             <li>
-                <a class="redes-color" href="https://www.instagram.com/"><img class="logo" src="../public/logos/instagram.svg" alt="instagram"></a>
+                <a class="redes-color" href="https://www.instagram.com/" target="_blank"><img class="logo" src="../public/logos/instagram.svg" alt="instagram"></a>
             </li>
             <li>
-                <a class="redes-color" href="https://www.facebook.com/"><img class="logo" src="../public/logos/facebook.svg" alt="facebook"></a>
+                <a class="redes-color" href="https://www.facebook.com/" target="_blank"><img class="logo" src="../public/logos/facebook.svg" alt="facebook"></a>
             </li>
             <li>
-                <a class="redes-color" href="https://www.whatsapp.com/"><img class="logo" src="../public/logos/whatsapp.svg" alt="whatsapp"></a>
+                <a class="redes-color" href="https://www.whatsapp.com/" target="_blank"><img class="logo" src="../public/logos/whatsapp.svg" alt="whatsapp"></a>
             </li>
             <li>
-                <a class="redes-color" href="https://twitter.com/"><img class="logo" src="../public/logos/gorjeo.svg" alt="twitter"></a>
+                <a class="redes-color" href="https://twitter.com/" target="_blank"><img class="logo" src="../public/logos/gorjeo.svg" alt="twitter"></a>
             </li>
             <li>
-                <a class="redes-color" href="https://www.youtube.com"><img class="logo" src="../public/logos/youtube.svg" alt="youtube"></a>
+                <a class="redes-color" href="https://www.youtube.com" target="_blank"><img class="logo" src="../public/logos/youtube.svg" alt="youtube"></a>
             </li>
         </ul>
-        <hr>
         <h5>Todos los derechos estan reservados</h5>
     </footer>
 

@@ -11,6 +11,8 @@ h2{
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .img-caro{
@@ -21,13 +23,13 @@ h2{
 #video-main{
     display: flex;
     justify-content: center;
-    
+    margin-top: 10px;
 }
 /* Fin section video */
 
 /* Inicio section Card */
 #card{
-    margin-top: 30px;
+    margin:30px 1px 0px;
 }
 .imagen-anteojos, .imagen-lentes{
     height: 300px;
@@ -42,15 +44,9 @@ h2{
 /* ========================= */
 
 /*Inicio Main Productos*/
-#main-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .titulo-productos, .subtitulo-producto{
     color: rgb(92, 0, 0);
-    margin:20px 10px 20px;
+    margin:30px 10px 30px;
 }
 
 .color-tipos, .tipos-anteojos, .tipos-lentes{
@@ -59,9 +55,7 @@ h2{
 }
 
 #tabla-productos{
-    display: flex;
-    justify-content: center;
-    border: black 2px;
+    margin:30px 10px 0px;
 }
 /*Fin Main Productos*/
 
@@ -70,6 +64,11 @@ h2{
 /*Inicio Main Historia*/
 #main-optica, #main-oftalmologia{
     width: 95%;
+    margin-bottom: 30px;
+}
+
+#main-optica{
+    margin-top: 20px;
 }
 
 .titulo-producto{
@@ -84,7 +83,7 @@ h2{
 }
 
 .historia-color{
-    color: solid rgb(92, 0, 0);
+    color: black;
     margin-bottom: 15px;
     margin-top: 15px;
     margin-left: 15px;
@@ -102,24 +101,32 @@ h2{
 .subtitulo-historia{
     color: rgb(92, 0, 0);
     margin: 5px;
+    text-align: center;
 }
 
 .historia-color{
-    color: rgb(92, 0, 0);
+    color: black;
     margin: 10px;
 }
 
+
 #mapa-tabla div{
     display: inline-block;
-    margin:15px;
+    margin-top: 20px;
+    align-items: center;
 }
+
 /*Fin Main Sucursales*/
 
 /* ========================= */
 
 /*Inicio Main Contacto*/
+#subtituloContacto{
+    margin: 10px 3px 15px;
+}
 #formulario{
     margin-left: 3px;
+    margin-right: 2px;
 }
 /*Fin Main Contacto*/
 
