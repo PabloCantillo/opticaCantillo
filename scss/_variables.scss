@@ -1,13 +1,18 @@
-@mixin titulo-header {
+//Variable para colocar estilos a los subtitulos.
+/*Inicio de variable de sass*/
+
+@mixin subtitulo-pages {
     color: rgb(92, 0, 0);
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     font-family: 'Recursive', sans-serif;
     font-size: 18px;
+    margin-left: 5px;
 }
 
 @for $i from 2 through 6 {
     h#{$i} {
-        @include titulo-header
+        @include subtitulo-pages
     }
 }
+/*Fin de la variable de sass*/

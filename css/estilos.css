@@ -61,9 +61,6 @@ nav ul li:hover ul {
 /* Fin de la section Header */
 /* ================================================*/
 /*Inicio Main index*/
-h2 {
-  color: #5c0000; }
-
 /* Carousel */
 #carouselExampleFade {
   align-items: center;
@@ -110,9 +107,13 @@ h2 {
 /*Fin Main Productos*/
 /* ========================= */
 /*Inicio Main Historia*/
+#subtitulo-historia {
+  margin-left: 5px; }
+
 #main-optica, #main-oftalmologia {
   width: 95%;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-left: 5px; }
 
 #main-optica {
   margin-top: 20px; }
@@ -122,15 +123,15 @@ h2 {
 
 .color-historia {
   color: #5c0000;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 10px; }
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 12px; }
 
 .historia-color {
   color: black;
   margin-bottom: 15px;
   margin-top: 15px;
-  margin-left: 15px; }
+  margin-left: 12px; }
 
 /*Fin Main Historia*/
 /* ========================= */
@@ -150,8 +151,7 @@ h2 {
 
 #mapa-tabla div {
   display: inline-block;
-  margin-top: 20px;
-  align-items: center; }
+  margin-top: 20px; }
 
 /*Fin Main Sucursales*/
 /* ========================= */
@@ -161,7 +161,8 @@ h2 {
 
 #formulario {
   margin-left: 3px;
-  margin-right: 2px; }
+  margin-right: 2px;
+  margin-top: 30px; }
 
 /*Fin Main Contacto*/
 /* ========================= */
@@ -256,11 +257,7 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 250px; }
-  #mapa-tabla {
-    align-self: center !important;
-    justify-content: center !important;
-    width: auto; } }
+    width: 250px; } }
 
 /* =================== */
 @media only screen and (max-width: 768px) {
@@ -277,7 +274,15 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 200px; } }
+    width: 200px; }
+  .mapa iframe {
+    max-width: 45rem;
+    align-items: center;
+    justify-items: center; }
+  .tabla-sucursales {
+    max-width: 45rem;
+    align-items: center;
+    justify-items: center; } }
 
 /* ==================== */
 @media only screen and (max-width: 640px) {
@@ -294,7 +299,9 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 150px; } }
+    width: 150px; }
+  .mapa iframe {
+    max-width: 25rem; } }
 
 @media only screen and (max-width: 480px) {
   .imagen-lentes {
@@ -310,41 +317,57 @@ footer h5 {
   #titulo-primero {
     text-align: center; }
   .receta, .sol, .lente-contacto {
-    width: 100px; } }
+    width: 100px; }
+  .mapa iframe {
+    max-width: 24rem; } }
+
+@media only screen and (max-width: 375px) {
+  .imagen-lentes {
+    height: 100px; }
+  .imagen-anteojos {
+    height: 100px; }
+  #main-video {
+    display: flex;
+    justify-content: center;
+    width: 25%; }
+  #titulo-secundario {
+    text-align: center; }
+  #titulo-primero {
+    text-align: center; }
+  .receta, .sol, .lente-contacto {
+    width: 100px; }
+  .mapa iframe {
+    max-width: 15rem; }
+  .tabla-sucursales {
+    margin-right: 3px; } }
 
 /* Fin media querie */
 /* ================================================*/
+/*Inicio de variable de sass*/
 h2 {
   color: #5c0000;
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: 'Recursive', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-left: 5px; }
 
 h3 {
   color: #5c0000;
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: 'Recursive', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-left: 5px; }
 
-h4 {
-  color: #5c0000;
-  margin-top: 30px;
-  margin-bottom: 25px;
-  font-family: 'Recursive', sans-serif;
-  font-size: 18px; }
+
 
 h5 {
   color: #5c0000;
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: 'Recursive', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-left: 5px; }
 
-h6 {
-  color: #5c0000;
-  margin-top: 30px;
-  margin-bottom: 25px;
-  font-family: 'Recursive', sans-serif;
-  font-size: 18px; }
+/*Fin de la variable de sass*/

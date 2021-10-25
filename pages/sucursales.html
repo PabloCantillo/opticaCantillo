@@ -72,10 +72,45 @@
 
 
     <main>
+        <!-- Aqui ubicamos un carrousel con las marcas de anteojos -->
+        <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="../public/img/armani.jpg" class="d-block w-100" alt="armani">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/img/dolcegabana.jpg" class="d-block w-100" alt="dolce & gabana">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/img/elizabeth.jpg" class="d-block w-100" alt="elizabeth">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/img/paula.jpg" class="d-block w-100" alt="paula">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/img/prada.jpg" class="d-block w-100" alt="prada">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../public/img/tiffany.jpg" class="d-block w-100" alt="tiffany">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../public/img/versace.jpg" class="d-block w-100" alt="versace">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
         <section id="sucursales-main">
-            <h2 class="historia-subtitulo"><u>Nuestra historia</u></h2>
-            <p></p>
-            <p></p>
+            <h2 class="subtitulo-pages"><u>Nuestra historia</u></h2>
             <p class="historia-color"><b>
                 La historia de nuestra óptica nace en febrero del 2008 con mi recibimiento de optico y contactologo.
                 Fundamos esta bonita empresa de manera familiar, la cual al tener mucho exito decidimos comenzar a expandirnos y colocar otras sucursales.
@@ -85,13 +120,13 @@
             </p>
         </section>
         <section id="mapa-tabla">
-            <h2 class="subtitulo-historia"><u>Sucursales</u></h2> 
+            <h3 class="subtitulo-historia"><u>Sucursales</u></h3> 
             <!-- Inserto mapa de las sucursales -->
             <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.65243817135!2d-58.37563008526037!3d-34.612949280457094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad519d55543%3A0xa48c51889e6065b2!2sBol%C3%ADvar%20435%2C%20C1066AAI%20CABA!5e0!3m2!1ses-419!2sar!4v1633444458684!5m2!1ses-419!2sar" width="500" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.65243817135!2d-58.37563008526037!3d-34.612949280457094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad519d55543%3A0xa48c51889e6065b2!2sBol%C3%ADvar%20435%2C%20C1066AAI%20CABA!5e0!3m2!1ses-419!2sar!4v1633444458684!5m2!1ses-419!2sar" width="620" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <!-- Inserto tabla de ubicaciones de las sucursales -->
-            <div>
+            <div class="tabla-sucursales">
                 <table class="table table-striped table-light">
                     <thead>
                         <tr>
