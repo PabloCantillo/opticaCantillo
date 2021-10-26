@@ -319,7 +319,31 @@ footer h5 {
   .receta, .sol, .lente-contacto {
     width: 100px; }
   .mapa iframe {
-    max-width: 24rem; } }
+    max-width: 24rem; }
+  #tabla-productos {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 410px) {
+  .imagen-lentes {
+    height: 100px; }
+  .imagen-anteojos {
+    height: 100px; }
+  #main-video {
+    display: flex;
+    justify-content: center;
+    width: 25%; }
+  #titulo-secundario {
+    text-align: center; }
+  #titulo-primero {
+    text-align: center; }
+  .receta, .sol, .lente-contacto {
+    width: 100px; }
+  .mapa iframe {
+    max-width: 15rem; }
+  .tabla-sucursales {
+    margin-right: 3px; }
+  #tabla-productos {
+    font-size: 13px; } }
 
 @media only screen and (max-width: 375px) {
   .imagen-lentes {
@@ -339,7 +363,9 @@ footer h5 {
   .mapa iframe {
     max-width: 15rem; }
   .tabla-sucursales {
-    margin-right: 3px; } }
+    margin-right: 3px; }
+  #tabla-productos {
+    font-size: 10px; } }
 
 /* Fin media querie */
 /* ================================================*/
@@ -360,9 +386,23 @@ h3 {
   font-size: 18px;
   margin-left: 5px; }
 
-
+h4 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+  margin-left: 5px; }
 
 h5 {
+  color: #5c0000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+  margin-left: 5px; }
+
+h6 {
   color: #5c0000;
   margin-top: 30px;
   margin-bottom: 30px;
